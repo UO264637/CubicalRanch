@@ -23,11 +23,17 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LoadMenu();
 
+	UFUNCTION(BlueprintCallable)
+	void LoadInGameMenu();
+
 	UFUNCTION(Exec)
-	void Start();
+	void Start() override;
+
+	virtual void LoadMainMenu() override;
 
 private:
 	TSubclassOf<class UUserWidget> MenuClass;
+	TSubclassOf<class UUserWidget> InGameMenuClass;
 
 	class UMainMenu* Menu;
 };

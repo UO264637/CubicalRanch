@@ -3,22 +3,16 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
-#include "MenuInterface.h"
+#include "MenuWidget.h"
 #include "MainMenu.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CUBICALRANCH_API UMainMenu : public UUserWidget
+class CUBICALRANCH_API UMainMenu : public UMenuWidget
 {
 	GENERATED_BODY()
-public:
-	void SetMenuInterface(IMenuInterface* MenuInterface);
-
-	void Setup();
-	void Teardown();
 
 protected:
 	virtual bool Initialize();
@@ -27,8 +21,12 @@ private:
 	UPROPERTY(meta = (BindWidget))
 	class UButton* Start;
 
+	UPROPERTY(meta = (BindWidget))
+	class UButton* Quit;
+
 	UFUNCTION()
 	void StartGame();
 
-	IMenuInterface* MenuInterface;
+	UFUNCTION()
+	void QuitGame();
 };

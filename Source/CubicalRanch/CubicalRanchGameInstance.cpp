@@ -5,9 +5,11 @@
 
 #include "Engine/Engine.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 #include "Blueprint/UserWidget.h"
 #include "MenuSystem/MainMenu.h"
+#include "MenuSystem/MenuWidget.h"
 
 UCubicalRanchGameInstance::UCubicalRanchGameInstance(const FObjectInitializer& ObjectInitializer)
 {
@@ -15,6 +17,12 @@ UCubicalRanchGameInstance::UCubicalRanchGameInstance(const FObjectInitializer& O
 	if (MenuBPClass.Class != NULL)
 	{
 		MenuClass = MenuBPClass.Class;
+	}
+
+	ConstructorHelpers::FClassFinder<UUserWidget> InGameMenuBPClass(TEXT("/Game/MenuSystem/WBP_InGameMenu"));
+	if (InGameMenuBPClass.Class != NULL)
+	{
+		InGameMenuClass = InGameMenuBPClass.Class;
 	}
 }
 
@@ -35,6 +43,18 @@ void UCubicalRanchGameInstance::LoadMenu()
 	Menu->SetMenuInterface(this);
 }
 
+void UCubicalRanchGameInstance::LoadInGameMenu()
+{
+	if (!ensure(InGameMenuClass != nullptr)) return;
+
+	UMenuWidget* Menu = CreateWidget<UMenuWidget>(this, InGameMenuClass);
+
+	if (!ensure(Menu != nullptr)) return;
+
+	Menu->Setup();
+	Menu->SetMenuInterface(this);
+}
+
 void UCubicalRanchGameInstance::Start()
 {
 	Menu = CreateWidget<UMainMenu>(this, MenuClass);
@@ -46,7 +66,12 @@ void UCubicalRanchGameInstance::Start()
 	UWorld* World = GetWorld();
 	if (!ensure(World != nullptr)) return;
 
-	World->ServerTravel("/Game/TopDownCPP/Maps/TopDownExampleMap?listen");
+	UGameplayStatics::OpenLevel(GetWorld(), "TopDownExampleMap");
 
 	UE_LOG(LogTemp, Warning, TEXT("Start!"));
+}
+
+void UCubicalRanchGameInstance::LoadMainMenu()
+{
+	UGameplayStatics::OpenLevel(GetWorld(), "MainMenu");
 }

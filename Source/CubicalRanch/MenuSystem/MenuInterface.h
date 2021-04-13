@@ -23,4 +23,5 @@ class CUBICALRANCH_API IMenuInterface
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	virtual void Start() = 0;
+	virtual void LoadMainMenu() = 0;
 };
