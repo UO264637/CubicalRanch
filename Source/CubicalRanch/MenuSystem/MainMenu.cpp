@@ -24,6 +24,7 @@ void UMainMenu::StartGame()
 	if (MenuInterface != nullptr)
 	{
 		MenuInterface->Start();
+		Teardown();
 	}
 }
 

@@ -25,7 +25,7 @@ void UMenuWidget::Setup()
 void UMenuWidget::Teardown()
 {
 	this->RemoveFromViewport();
-	//this->bIsFocusable = false;
+	this->bIsFocusable = false;
 
 	UWorld* World = GetWorld();
 	if (!ensure(World != nullptr)) return;
