@@ -11,6 +11,8 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include "InventorySystem/Item.h"
+#include "InventorySystem/InventoryComponent.h"
 
 ACubicalRanchCharacter::ACubicalRanchCharacter()
 {
@@ -55,6 +57,10 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+
+	// Inventory
+	Inventory = CreateDefaultSubobject<UInventoryComponent>("Inventory");
+	Inventory->Capacity = 20;
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
@@ -86,5 +92,14 @@ void ACubicalRanchCharacter::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldLocation(TraceHitResult.Location);
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
+	}
+}
+
+void ACubicalRanchCharacter::UseItem(UItem* Item)
+{
+	if (Item)
+	{
+		Item->Use(this);
+		Item->OnUse(this);
 	}
 }
