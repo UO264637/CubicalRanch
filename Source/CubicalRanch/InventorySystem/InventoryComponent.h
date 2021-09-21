@@ -32,7 +32,7 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Inventory")
 	FOnInventoryUpdated OnInventoryUpdated;
 
-	UPROPERTY(EditDefaultsOnly, Instanced)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Items")
 	TArray<class UItem*> Items;
 	
 };
