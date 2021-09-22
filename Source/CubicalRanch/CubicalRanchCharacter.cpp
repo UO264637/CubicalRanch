@@ -13,6 +13,7 @@
 #include "Engine/World.h"
 #include "InventorySystem/Item.h"
 #include "InventorySystem/InventoryComponent.h"
+#include "InventorySystem/ToolBarComponent.h"
 
 ACubicalRanchCharacter::ACubicalRanchCharacter()
 {
@@ -61,6 +62,9 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 	// Inventory
 	Inventory = CreateDefaultSubobject<UInventoryComponent>("Inventory");
 	Inventory->Capacity = 20;
+
+	// ToolBar
+	ToolBar = CreateDefaultSubobject<UToolBarComponent>("ToolBar");
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
@@ -102,4 +106,9 @@ void ACubicalRanchCharacter::UseItem(UItem* Item)
 		Item->Use(this);
 		Item->OnUse(this);
 	}
+}
+
+void ACubicalRanchCharacter::AddItemToToolBar(UItem* Item)
+{
+	ToolBar->AddItem(Item);
 }

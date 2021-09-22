@@ -14,6 +14,9 @@ class ACubicalRanchCharacter : public ACharacter
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Inventory, meta = (AllowPrivateAccess = "true"))
 	class UInventoryComponent* Inventory;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Inventory, meta = (AllowPrivateAccess = "true"))
+	class UToolBarComponent* ToolBar;
+
 public:
 	ACubicalRanchCharacter();
 
@@ -29,6 +32,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	void UseItem(class UItem* Item);
+
+	UFUNCTION(BlueprintCallable, Category = "Items")
+	void AddItemToToolBar(class UItem* Item);
 
 private:
 	/** Top down camera */
