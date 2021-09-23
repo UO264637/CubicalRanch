@@ -10,10 +10,10 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
-#include "Engine/World.h"
 #include "InventorySystem/Item.h"
 #include "InventorySystem/InventoryComponent.h"
 #include "InventorySystem/ToolBarComponent.h"
+#include "Engine/World.h"
 
 ACubicalRanchCharacter::ACubicalRanchCharacter()
 {
@@ -70,7 +70,6 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
 {
     Super::Tick(DeltaSeconds);
-
 	if (CursorToWorld != nullptr)
 	{
 		if (UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled())
@@ -110,5 +109,6 @@ void ACubicalRanchCharacter::UseItem(UItem* Item)
 
 void ACubicalRanchCharacter::AddItemToToolBar(UItem* Item)
 {
+	Inventory->RemoveItem(Item);
 	ToolBar->AddItem(Item);
 }

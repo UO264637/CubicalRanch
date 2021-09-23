@@ -3,6 +3,7 @@
 
 #include "ToolBarComponent.h"
 #include "Item.h"
+#include "ToolBarItem.h"
 
 // Sets default values for this component's properties
 UToolBarComponent::UToolBarComponent()
@@ -18,18 +19,34 @@ void UToolBarComponent::BeginPlay()
 
 	for (auto& Item : DefaultItems)
 	{
-		AddItem(Item);
+		Items.Add(Item);
+	}
+
+	firstEmptySlot = Items.Num();
+
+	while (Items.Num() < Size) {
+		Items.Add(NewObject<UToolBarItem>());
+	}
+
+	if (Items.Num() > 0)
+	{
+		Items[0]->IsSelected = true;
 	}
 }
 
 bool UToolBarComponent::AddItem(UItem* Item)
 {
-	if (Items.Num() >= Size || !Item)
+	if (firstEmptySlot >= Size || !Item)
 	{
 		return false;
 	}
 
-	Items.Add(Item);
+	Item->IsSelected = Items[firstEmptySlot]->IsSelected;
+
+	Items[firstEmptySlot] = Item;
+	
+
+	firstEmptySlot++;
 
 	// Update UI
 	OnToolBarUpdated.Broadcast();
@@ -42,14 +59,33 @@ bool UToolBarComponent::RemoveItem(UItem* Item)
 	if (Item)
 	{
 		Items.RemoveSingle(Item);
+		Items.Add(NewObject<UToolBarItem>());
+		firstEmptySlot--;
 		OnToolBarUpdated.Broadcast();
 		return true;
 	}
 	return false;
 }
 
-UItem* UToolBarComponent::GetSelected(int32 Position)
+UItem* UToolBarComponent::GetSelected()
 {
-	return Items[Position];
+	UItem* selected = nullptr;
+
+	for (auto& Item : Items)
+	{
+		if (Item->IsSelected) {
+			selected = Item;
+		}
+	}
+	
+	return selected;
+}
+
+void UToolBarComponent::SetSelected(int32 Index)
+{
+	GetSelected()->IsSelected = false;
+	Items[Index]->IsSelected = true;
+
+	OnToolBarUpdated.Broadcast();
 }
 

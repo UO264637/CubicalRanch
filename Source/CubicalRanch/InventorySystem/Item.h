@@ -40,6 +40,12 @@ public:
 	UPROPERTY()
 	class UInventoryComponent* OwningInventory;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
+	int32 Amount;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
+	bool IsSelected;
+
 	virtual void Use(class ACubicalRanchCharacter* Character) PURE_VIRTUAL(UItem, );
 
 	UFUNCTION(BlueprintImplementableEvent)

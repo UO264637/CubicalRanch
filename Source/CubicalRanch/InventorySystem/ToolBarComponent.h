@@ -22,13 +22,20 @@ public:
 	bool AddItem(class UItem* Item);
 	bool RemoveItem(class UItem* Item);
 
-	UItem* GetSelected(int32 Position);
+	UFUNCTION(BlueprintCallable)
+	UItem* GetSelected();
+
+	UFUNCTION(BlueprintCallable)
+	void SetSelected(int32 Index);
 
 	UPROPERTY(EditDefaultsOnly, Instanced)
 	TArray<class UItem*> DefaultItems;
 
 	UPROPERTY(EditDefaultsOnly, Category = "ToolBar")
 	int32 Size;
+
+	UPROPERTY(BlueprintReadOnly, Category = "ToolBar")
+	int32 firstEmptySlot;
 
 	UPROPERTY(BlueprintAssignable, Category = "ToolBar")
 	FOnToolBarUpdated OnToolBarUpdated;
