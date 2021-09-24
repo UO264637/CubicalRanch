@@ -112,3 +112,9 @@ void ACubicalRanchCharacter::AddItemToToolBar(UItem* Item)
 	Inventory->RemoveItem(Item);
 	ToolBar->AddItem(Item);
 }
+
+void ACubicalRanchCharacter::AddItemToInventory(UItem* Item)
+{
+	ToolBar->RemoveItem(Item);
+	Inventory->AddItem(Item);
+}

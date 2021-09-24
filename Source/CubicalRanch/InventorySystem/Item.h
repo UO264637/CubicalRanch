@@ -26,7 +26,7 @@ public:
 	FText UseActionText;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
-	class UStaticMesh* PickupMesh;
+	class USkeletalMesh* SocketMesh;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Item")
 	class UTexture2D* Thumbnail;

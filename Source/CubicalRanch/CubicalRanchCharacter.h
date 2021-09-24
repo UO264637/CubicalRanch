@@ -50,5 +50,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	void AddItemToToolBar(class UItem* Item);
+
+	UFUNCTION(BlueprintCallable, Category = "Items")
+	void AddItemToInventory(class UItem* Item);
 };
 
