@@ -61,6 +61,12 @@ bool UToolBarComponent::RemoveItem(UItem* Item)
 		Items.RemoveSingle(Item);
 		Items.Add(NewObject<UToolBarItem>());
 		firstEmptySlot--;
+
+		if (Item->IsSelected)
+		{
+			Items[0]->IsSelected = true;
+		}
+
 		OnToolBarUpdated.Broadcast();
 		return true;
 	}
