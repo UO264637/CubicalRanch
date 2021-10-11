@@ -57,10 +57,10 @@ void UCubicalRanchGameInstance::LoadInGameMenu()
 
 void UCubicalRanchGameInstance::Start()
 {
-	Menu = CreateWidget<UMainMenu>(this, MenuClass);
+	//Menu = CreateWidget<UMainMenu>(this, MenuClass);
 	if (Menu != nullptr)
 	{
-		Menu->Teardown();
+		//Menu->Teardown();
 	}
 
 	UWorld* World = GetWorld();

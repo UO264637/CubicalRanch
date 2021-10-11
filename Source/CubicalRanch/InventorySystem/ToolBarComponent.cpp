@@ -40,8 +40,8 @@ bool UToolBarComponent::AddItem(UItem* Item)
 	{
 		return false;
 	}
-
-	Item->IsSelected = Items[firstEmptySlot]->IsSelected;
+	
+	//Item->IsSelected = Items[firstEmptySlot]->IsSelected;
 
 	Items[firstEmptySlot] = Item;
 	
@@ -71,6 +71,16 @@ bool UToolBarComponent::RemoveItem(UItem* Item)
 		return true;
 	}
 	return false;
+}
+
+TArray<class UItem*> UToolBarComponent::GetItems()
+{
+	return Items;
+}
+
+void UToolBarComponent::SetItems(TArray<class UItem*> Items)
+{
+	Items = Items;
 }
 
 UItem* UToolBarComponent::GetSelected()

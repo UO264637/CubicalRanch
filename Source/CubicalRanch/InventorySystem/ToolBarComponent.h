@@ -21,6 +21,8 @@ public:
 
 	bool AddItem(class UItem* Item);
 	bool RemoveItem(class UItem* Item);
+	TArray<class UItem*> GetItems();
+	void SetItems(TArray<class UItem*> Items);
 
 	UFUNCTION(BlueprintCallable)
 	UItem* GetSelected();

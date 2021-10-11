@@ -44,3 +44,4 @@ void UMenuWidget::SetMenuInterface(IMenuInterface* MenuInterface)
 {
 	this->MenuInterface = MenuInterface;
 }
+

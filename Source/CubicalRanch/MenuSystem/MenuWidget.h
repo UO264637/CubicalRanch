@@ -21,6 +21,14 @@ public:
 	void Setup();
 	void Teardown();
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnContinueGame();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnNewGame();
+
 protected:
 	IMenuInterface* MenuInterface;
+
+
 };

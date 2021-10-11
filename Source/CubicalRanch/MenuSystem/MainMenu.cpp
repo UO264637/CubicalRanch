@@ -16,16 +16,16 @@ bool UMainMenu::Initialize()
 	if (!ensure(Quit != nullptr)) return false;
 	Quit->OnClicked.AddDynamic(this, &UMainMenu::QuitGame);
 
+	if (!ensure(Continue != nullptr)) return false;
+	Continue->OnClicked.AddDynamic(this, &UMainMenu::ContinueGame);
+
 	return true;
 }
 
 void UMainMenu::StartGame()
 {
-	if (MenuInterface != nullptr)
-	{
-		MenuInterface->Start();
-		//Teardown();
-	}
+	OnNewGame();
+	Teardown();
 }
 
 void UMainMenu::QuitGame()
@@ -37,4 +37,10 @@ void UMainMenu::QuitGame()
 	if (!ensure(PlayerController != nullptr)) return;
 
 	PlayerController->ConsoleCommand("quit");
+}
+
+void UMainMenu::ContinueGame()
+{
+	OnContinueGame();
+	Teardown();
 }
