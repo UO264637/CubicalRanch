@@ -52,13 +52,3 @@ bool UInventoryComponent::RemoveItem(UItem* Item)
 	return false;
 }
 
-TArray<class UItem*> UInventoryComponent::GetItems()
-{
-	return Items;
-}
-
-void UInventoryComponent::SetItems(TArray<class UItem*> Items)
-{
-	Items = Items;
-}
-

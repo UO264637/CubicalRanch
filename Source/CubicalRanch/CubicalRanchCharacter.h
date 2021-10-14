@@ -15,7 +15,7 @@ class ACubicalRanchCharacter : public ACharacter
 	class UInventoryComponent* Inventory;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Inventory, meta = (AllowPrivateAccess = "true"))
-	class UToolBarComponent* ToolBar;
+	class UToolBarComponent* ToolBar1;
 
 private:
 	/** Top down camera */

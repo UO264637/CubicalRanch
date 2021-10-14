@@ -64,7 +64,7 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 	Inventory->Capacity = 20;
 
 	// ToolBar
-	ToolBar = CreateDefaultSubobject<UToolBarComponent>("ToolBar");
+	ToolBar1 = CreateDefaultSubobject<UToolBarComponent>("ToolBar1");
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
@@ -110,11 +110,11 @@ void ACubicalRanchCharacter::UseItem(UItem* Item)
 void ACubicalRanchCharacter::AddItemToToolBar(UItem* Item)
 {
 	Inventory->RemoveItem(Item);
-	ToolBar->AddItem(Item);
+	ToolBar1->AddItem(Item);
 }
 
 void ACubicalRanchCharacter::AddItemToInventory(UItem* Item)
 {
-	ToolBar->RemoveItem(Item);
+	ToolBar1->RemoveItem(Item);
 	Inventory->AddItem(Item);
 }

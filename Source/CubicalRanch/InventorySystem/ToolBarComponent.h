@@ -21,14 +21,18 @@ public:
 
 	bool AddItem(class UItem* Item);
 	bool RemoveItem(class UItem* Item);
-	TArray<class UItem*> GetItems();
-	void SetItems(TArray<class UItem*> Items);
 
 	UFUNCTION(BlueprintCallable)
 	UItem* GetSelected();
 
 	UFUNCTION(BlueprintCallable)
 	void SetSelected(int32 Index);
+
+	UFUNCTION(BlueprintCallable)
+	TArray<class UItem*> GetItems(); 
+
+	UFUNCTION(BlueprintCallable)
+	void RemoveStarterItems(); 
 
 	UPROPERTY(EditDefaultsOnly, Instanced)
 	TArray<class UItem*> DefaultItems;
