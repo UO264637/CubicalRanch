@@ -46,8 +46,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
 	bool IsSelected;
 
-	virtual void Use(class ACubicalRanchCharacter* Character) PURE_VIRTUAL(UItem, );
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnLeftUse(class ACubicalRanchCharacter* Character, FTransform location, AActor* HitActor);
 
 	UFUNCTION(BlueprintImplementableEvent)
-	void OnUse(class ACubicalRanchCharacter* Character);
+	void OnRightUse(class ACubicalRanchCharacter* Character, FTransform location, AActor* HitActor);
 };

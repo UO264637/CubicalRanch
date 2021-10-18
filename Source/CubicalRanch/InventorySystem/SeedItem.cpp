@@ -3,8 +3,3 @@
 
 #include "SeedItem.h"
 #include "CubicalRanchCharacter.h"
-
-void USeedItem::Use(class ACubicalRanchCharacter* Character)
-{
-
-}

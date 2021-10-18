@@ -64,7 +64,7 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 	Inventory->Capacity = 20;
 
 	// ToolBar
-	ToolBar1 = CreateDefaultSubobject<UToolBarComponent>("ToolBar1");
+	ToolBar = CreateDefaultSubobject<UToolBarComponent>("ToolBar");
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
@@ -98,23 +98,29 @@ void ACubicalRanchCharacter::Tick(float DeltaSeconds)
 	}
 }
 
-void ACubicalRanchCharacter::UseItem(UItem* Item)
+void ACubicalRanchCharacter::UseItem(UItem* Item, bool leftclick, FTransform location, AActor* HitActor)
 {
 	if (Item)
 	{
-		Item->Use(this);
-		Item->OnUse(this);
+		if (leftclick)
+		{
+			Item->OnLeftUse(this, location, HitActor);
+		}
+		else
+		{
+			Item->OnRightUse(this, location, HitActor);
+		}
 	}
 }
 
 void ACubicalRanchCharacter::AddItemToToolBar(UItem* Item)
 {
 	Inventory->RemoveItem(Item);
-	ToolBar1->AddItem(Item);
+	ToolBar->AddItem(Item);
 }
 
 void ACubicalRanchCharacter::AddItemToInventory(UItem* Item)
 {
-	ToolBar1->RemoveItem(Item);
+	ToolBar->RemoveItem(Item);
 	Inventory->AddItem(Item);
 }

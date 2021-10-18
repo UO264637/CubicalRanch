@@ -15,7 +15,7 @@ class ACubicalRanchCharacter : public ACharacter
 	class UInventoryComponent* Inventory;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Inventory, meta = (AllowPrivateAccess = "true"))
-	class UToolBarComponent* ToolBar1;
+	class UToolBarComponent* ToolBar;
 
 private:
 	/** Top down camera */
@@ -46,7 +46,7 @@ public:
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
-	void UseItem(class UItem* Item);
+	void UseItem(class UItem* Item, bool leftclick, FTransform location, AActor* HitActor);
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	void AddItemToToolBar(class UItem* Item);

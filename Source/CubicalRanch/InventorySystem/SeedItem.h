@@ -14,6 +14,4 @@ class CUBICALRANCH_API USeedItem : public UItem
 {
 	GENERATED_BODY()
 	
-protected:
-	virtual void Use(class ACubicalRanchCharacter* Character) override;
 };
