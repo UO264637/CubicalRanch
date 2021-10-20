@@ -53,5 +53,11 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	void AddItemToInventory(class UItem* Item);
+
+	UFUNCTION(BlueprintCallable, Category = "Items")
+	void GiveItem(class UItem* Item, int32 amount);
+
+	UFUNCTION(BlueprintCallable, Category = "Items")
+	void RemoveItem(class UItem* Item, int32 amount);
 };
 

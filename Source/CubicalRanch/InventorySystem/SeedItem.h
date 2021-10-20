@@ -13,5 +13,17 @@ UCLASS()
 class CUBICALRANCH_API USeedItem : public UItem
 {
 	GENERATED_BODY()
-	
+
+public:
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "SeedItem")
+	TArray<class UStaticMesh*> Stages;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "SeedItem")
+	int32 GrowingDays;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Instanced, Category = "SeedItem")
+	class UItem* Product;
+
+	UFUNCTION(BlueprintCallable)
+	UStaticMesh* GetStage(int32 Stage);
 };

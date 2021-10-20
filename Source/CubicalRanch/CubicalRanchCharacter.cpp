@@ -124,3 +124,60 @@ void ACubicalRanchCharacter::AddItemToInventory(UItem* Item)
 	ToolBar->RemoveItem(Item);
 	Inventory->AddItem(Item);
 }
+
+void ACubicalRanchCharacter::GiveItem(UItem* Item, int32 amount)
+{
+	for (auto& InventoryItem : Inventory->Items)
+	{
+		if (InventoryItem->ItemDisplayName.ToString() == Item->ItemDisplayName.ToString()) {
+			InventoryItem->Amount += amount;
+			return;
+		}
+	}
+
+	for (auto& ToolBarItem : ToolBar->Items)
+	{
+		if (ToolBarItem->ItemDisplayName.ToString() == Item->ItemDisplayName.ToString()) {
+			ToolBarItem->Amount += amount;
+			return;
+		}
+	}
+
+	Item->Amount = amount;
+	Inventory->AddItem(Item);
+}
+
+void ACubicalRanchCharacter::RemoveItem(UItem* Item, int32 amount)
+{
+	for (auto& InventoryItem : Inventory->Items)
+	{
+		if (InventoryItem->ItemDisplayName.ToString() == Item->ItemDisplayName.ToString()) {
+			if (InventoryItem->Amount > amount)
+			{
+				InventoryItem->Amount -= amount;
+			}
+			else if (InventoryItem->Amount == amount)
+			{
+				Inventory->RemoveItem(Item);
+			}
+			
+			return;
+		}
+	}
+
+	for (auto& ToolBarItem : ToolBar->Items)
+	{
+		if (ToolBarItem->ItemDisplayName.ToString() == Item->ItemDisplayName.ToString()) {
+			if (ToolBarItem->Amount > amount)
+			{
+				ToolBarItem->Amount -= amount;
+			}
+			else if (ToolBarItem->Amount == amount)
+			{
+				ToolBar->RemoveItem(Item);
+			}
+
+			return;
+		}
+	}
+}
