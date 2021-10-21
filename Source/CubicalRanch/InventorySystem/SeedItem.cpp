@@ -7,14 +7,14 @@
 
 UStaticMesh* USeedItem::GetStage(int32 Stage)
 {
-	if (Stage >= GrowingDays)
+	if (Stage > GrowingDays)
 	{
-		Stage = GrowingDays - 1;
+		Stage = GrowingDays;
 	}
-
+	
 	int32 StageToReturn = Stage * Stages.Num() / GrowingDays;
 
-	if (StageToReturn == Stages.Num() && Stage < GrowingDays-1)
+	if (StageToReturn >= Stages.Num()-1 && Stage <= GrowingDays)
 	{
 		StageToReturn--;
 	}

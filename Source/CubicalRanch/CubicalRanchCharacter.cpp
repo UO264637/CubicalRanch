@@ -139,6 +139,8 @@ void ACubicalRanchCharacter::GiveItem(UItem* Item, int32 amount)
 	{
 		if (ToolBarItem->ItemDisplayName.ToString() == Item->ItemDisplayName.ToString()) {
 			ToolBarItem->Amount += amount;
+
+			ToolBar->OnToolBarUpdated.Broadcast();
 			return;
 		}
 	}
@@ -161,6 +163,8 @@ void ACubicalRanchCharacter::RemoveItem(UItem* Item, int32 amount)
 				Inventory->RemoveItem(Item);
 			}
 			
+			Inventory->OnInventoryUpdated.Broadcast();
+
 			return;
 		}
 	}
@@ -176,6 +180,8 @@ void ACubicalRanchCharacter::RemoveItem(UItem* Item, int32 amount)
 			{
 				ToolBar->RemoveItem(Item);
 			}
+
+			ToolBar->OnToolBarUpdated.Broadcast();
 
 			return;
 		}
