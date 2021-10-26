@@ -44,6 +44,9 @@ public:
 	int32 Amount;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
+	int32 Price;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item")
 	bool IsSelected;
 
 	UFUNCTION(BlueprintImplementableEvent)
@@ -51,4 +54,13 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnRightUse(class ACubicalRanchCharacter* Character, FTransform location, AActor* HitActor);
+
+	UFUNCTION(BlueprintCallable)
+	void Buy(class ACubicalRanchCharacter* Character, int32 Quantity);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnBuy(int32 Quantity);
+
+	UFUNCTION(BlueprintCallable)
+	void Sell(class ACubicalRanchCharacter* Character, int32 Quantity);
 };

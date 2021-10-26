@@ -59,5 +59,11 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	void RemoveItem(class UItem* Item, int32 amount);
+
+	UFUNCTION(BlueprintCallable, Category = "Items")
+	TArray<class UItem*> GetAllItems();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Property)
+	int32 Money;
 };
 

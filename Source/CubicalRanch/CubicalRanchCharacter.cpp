@@ -65,6 +65,9 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 
 	// ToolBar
 	ToolBar = CreateDefaultSubobject<UToolBarComponent>("ToolBar");
+
+	// Money
+	Money = 100;
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
@@ -186,4 +189,14 @@ void ACubicalRanchCharacter::RemoveItem(UItem* Item, int32 amount)
 			return;
 		}
 	}
+}
+
+TArray<class UItem*> ACubicalRanchCharacter::GetAllItems()
+{
+	TArray<class UItem*> Items;
+
+	Items.Append(Inventory->Items);
+	Items.Append(ToolBar->GetItems());
+	
+	return Items;
 }
