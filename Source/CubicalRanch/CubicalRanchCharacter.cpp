@@ -13,6 +13,7 @@
 #include "InventorySystem/Item.h"
 #include "InventorySystem/InventoryComponent.h"
 #include "InventorySystem/ToolBarComponent.h"
+#include "AchievementSystem/AchievementComponent.h"
 #include "Engine/World.h"
 
 ACubicalRanchCharacter::ACubicalRanchCharacter()
@@ -68,6 +69,9 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 
 	// Money
 	Money = 100;
+
+	// Achievements
+	Achievements = CreateDefaultSubobject<UAchievementComponent>("Achievements");
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
