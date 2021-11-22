@@ -39,7 +39,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Achievement")
 	int32 Goal;
 
-	void Progress(class ACubicalRanchCharacter* Character);
+	virtual void Progress(class ACubicalRanchCharacter* Character);
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void Show(class ACubicalRanchCharacter* Character);

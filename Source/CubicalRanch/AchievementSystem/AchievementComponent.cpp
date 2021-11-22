@@ -12,12 +12,10 @@ UAchievementComponent::UAchievementComponent()
 
 void UAchievementComponent::ProgressAchievement(ACubicalRanchCharacter* Character, FString ID)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Progress!"));
 
 	for (auto& Achievement : Achievements)
 	{
 		if (Achievement->ID.Equals(ID) && !Achievement->IsAchieved) {
-			UE_LOG(LogTemp, Warning, TEXT("A"));
 			Achievement->Progress(Character);
 		}
 	}
