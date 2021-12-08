@@ -20,3 +20,8 @@ void UAchievementComponent::ProgressAchievement(ACubicalRanchCharacter* Characte
 		}
 	}
 }
+
+TArray<class UAchievement*> UAchievementComponent::GetAchievements()
+{
+	return Achievements;
+}

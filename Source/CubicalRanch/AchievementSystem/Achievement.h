@@ -21,7 +21,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Achievement")
 	class UTexture2D* Thumbnail;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Achievement")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Achievement", meta = (MultiLine = true))
 	FText AchievementName;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Achievement", meta = (MultiLine = true))

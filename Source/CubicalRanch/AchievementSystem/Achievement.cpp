@@ -21,7 +21,6 @@ void UAchievement::Progress(ACubicalRanchCharacter* Character)
 		}
 	}
 	else {
-		UE_LOG(LogTemp, Warning, TEXT("Achieved"));
 		IsAchieved = true;
 		Show(Character);
 	}

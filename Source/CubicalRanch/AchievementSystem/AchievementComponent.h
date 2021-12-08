@@ -24,4 +24,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void ShowAchievement(class UAchievement* Achievement);
+
+	UFUNCTION(BlueprintCallable)
+	TArray<class UAchievement*> GetAchievements();
 };
