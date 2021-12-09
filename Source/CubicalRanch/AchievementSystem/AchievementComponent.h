@@ -20,7 +20,7 @@ public:
 	TArray<class UAchievement*> Achievements;
 
 	UFUNCTION(BlueprintCallable)
-	void ProgressAchievement(class ACubicalRanchCharacter* Character, FString ID);
+	void ProgressAchievement(class ACubicalRanchCharacter* Character, FString ID, int32 Points);
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void ShowAchievement(class UAchievement* Achievement);

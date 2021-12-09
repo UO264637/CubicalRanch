@@ -4,9 +4,9 @@
 #include "CompoundAchievement.h"
 #include "Achievement.h"
 
-void UCompoundAchievement::Progress(ACubicalRanchCharacter* Character)
+void UCompoundAchievement::Progress(ACubicalRanchCharacter* Character, int32 Points)
 {
-	Achievements[ActualAchievement]->Progress(Character);
+	Achievements[ActualAchievement]->Progress(Character, Points);
 
 	if (Achievements[ActualAchievement]->IsAchieved && ActualAchievement<Achievements.Num()-1) {
 		ActualAchievement++;
@@ -18,4 +18,9 @@ void UCompoundAchievement::Progress(ACubicalRanchCharacter* Character)
 UAchievement* UCompoundAchievement::GetAchievement()
 {
 	return Achievements[ActualAchievement];
+}
+
+TArray<class UAchievement*> UCompoundAchievement::GetAchievements()
+{
+	return Achievements;
 }

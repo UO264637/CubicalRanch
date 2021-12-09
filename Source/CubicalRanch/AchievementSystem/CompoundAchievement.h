@@ -15,13 +15,17 @@ class CUBICALRANCH_API UCompoundAchievement : public UAchievement
 	GENERATED_BODY()
 
 public:
-	void Progress(class ACubicalRanchCharacter* Character) override;
+	void Progress(class ACubicalRanchCharacter* Character, int32 Points) override;
 
 	UPROPERTY(EditDefaultsOnly, Instanced)
 	TArray<class UAchievement*> Achievements;
 
+	UPROPERTY(BlueprintReadOnly)
 	int32 ActualAchievement;
 
 	UFUNCTION(BlueprintCallable)
 	class UAchievement* GetAchievement();
+
+	UFUNCTION(BlueprintCallable)
+		TArray<class UAchievement*> GetAchievements();
 };

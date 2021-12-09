@@ -10,13 +10,13 @@ UAchievementComponent::UAchievementComponent()
 
 }
 
-void UAchievementComponent::ProgressAchievement(ACubicalRanchCharacter* Character, FString ID)
+void UAchievementComponent::ProgressAchievement(ACubicalRanchCharacter* Character, FString ID, int32 Points)
 {
 
 	for (auto& Achievement : Achievements)
 	{
 		if (Achievement->ID.Equals(ID) && !Achievement->IsAchieved) {
-			Achievement->Progress(Character);
+			Achievement->Progress(Character, Points);
 		}
 	}
 }

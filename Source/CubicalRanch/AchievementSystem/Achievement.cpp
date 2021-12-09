@@ -3,18 +3,18 @@
 #include "Achievement.h"
 #include "../CubicalRanchCharacter.h"
 
-void UAchievement::Progress(ACubicalRanchCharacter* Character)
+void UAchievement::Progress(ACubicalRanchCharacter* Character, int32 Points)
 {
 	if (Goal != 0)
 	{
 		if (Advancement < Goal)
 		{
-			Advancement++;
+			Advancement += Points;
 			if (Advancement % Step == 0 && Advancement != Goal) {
 				Show(Character);
 			}
 		}
-		if (Advancement == Goal)
+		if (Advancement >= Goal)
 		{
 			IsAchieved = true;
 			Show(Character);
