@@ -6,7 +6,10 @@
 
 void UCompoundAchievement::Progress(ACubicalRanchCharacter* Character, int32 Points)
 {
-	Achievements[ActualAchievement]->Progress(Character, Points);
+	for (auto& Achievement : Achievements)
+	{
+		Achievement->Progress(Character, Points);
+	}
 
 	if (Achievements[ActualAchievement]->IsAchieved && ActualAchievement<Achievements.Num()-1) {
 		ActualAchievement++;
