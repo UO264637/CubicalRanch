@@ -1,0 +1,800 @@
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/AnimalAIInterface.uasset" 0
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/AnimalAI.uasset" 1
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AnimalAI.uasset" 2
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AnimalAIInterface.uasset" 3
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 4
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/GrowingInterface.uasset" 5
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/FemaleCharacter_Skeleton.uasset" 6
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/Fainting.uasset" 7
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/Milking.uasset" 8
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/UseItem.uasset" 9
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/FemaleIdle.uasset" 10
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/FemaleWalking.uasset" 11
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animations/CharacterBlendSpace1D.uasset" 12
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animations/CharacterAnimBlueprint.uasset" 13
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_SaveSettings.uasset" 14
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/BucketIcon.uasset" 15
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Achievement.uasset" 16
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/Coin.uasset" 17
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_10000MoneyAchievement.uasset" 18
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_10000SpendAchievement.uasset" 19
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_1000MoneyAchievement.uasset" 20
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/CarrotIcon.uasset" 21
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_100CropsAchievement.uasset" 22
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/WoolIcon.uasset" 23
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_100ProductsAchievement.uasset" 24
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/WateringCanIcon.uasset" 25
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_100WaterAchievement.uasset" 26
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_200WaterAchievement.uasset" 27
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/MilkIcon.uasset" 28
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_20MilkAchievement.uasset" 29
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_20WoolAchievement.uasset" 30
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_5000MoneyAchievement.uasset" 31
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_5000SpendAchievement.uasset" 32
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_50CropsAchievement.uasset" 33
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/EggIcon.uasset" 34
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_50EggsAchievement.uasset" 35
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/FaintAchievement.uasset" 36
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_FaintAchievement.uasset" 37
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Feed100Achievement.uasset" 38
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/WheatIcon.uasset" 39
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Feed50Achievement.uasset" 40
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_CompoundAchievement.uasset" 41
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_FeedAchievement.uasset" 42
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_HarvestAchievement.uasset" 43
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_MoneyAchievement.uasset" 44
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/CarrotSeedIcon.uasset" 45
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Plant100CropsAchievement.uasset" 46
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Plant50CropsAchievement.uasset" 47
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_PlantAchievement.uasset" 48
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/ChickenIcon.uasset" 49
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Purchase10AnimalsAchievement.uasset" 50
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_Purchase5AnimalsAchievement.uasset" 51
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_PurchaseAnimalAchievement.uasset" 52
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_SpendAchievement.uasset" 53
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_WaterAchievement.uasset" 54
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/BlockInterface.uasset" 55
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/BP_Block.uasset" 56
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/dirt.uasset" 57
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/palette.uasset" 58
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/WheatSeed_Skeleton.uasset" 59
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Shovel.uasset" 60
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_Tool.uasset" 61
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/waterfall.uasset" 62
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/waterfallBottom.uasset" 63
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/waterfallMiddle.uasset" 64
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/waterfallTop.uasset" 65
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/BP_Waterfall.uasset" 66
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/dirt_0.uasset" 67
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/BP_Grass.uasset" 68
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/Water.uasset" 69
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/BP_Water.uasset" 70
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_BaseTool.uasset" 71
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Bucket.uasset" 72
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Water.uasset" 73
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Bucket.uasset" 74
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/soil.uasset" 75
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/WateredSoil.uasset" 76
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/BP_Soil.uasset" 77
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/HoeIcon.uasset" 78
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Hoe.uasset" 79
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Hoe.uasset" 80
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Hoe.uasset" 81
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/stone.uasset" 82
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Terrain.uasset" 83
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/ShovelIcon.uasset" 84
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Dirt.uasset" 85
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Shovel.uasset" 86
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/WateringCan.uasset" 87
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Watering.uasset" 88
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_WateringCan.uasset" 89
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Carrot1.uasset" 90
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette2.uasset" 91
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Carrot.uasset" 92
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Edible.uasset" 93
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Wheat1.uasset" 94
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette3.uasset" 95
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Wheat.uasset" 96
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Wheat.uasset" 97
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/LettuceIcon.uasset" 98
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Lettuce1.uasset" 99
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette1.uasset" 100
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Lettuce.uasset" 101
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Lettuce.uasset" 102
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/lettuce1.uasset" 103
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/lettuce2.uasset" 104
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/lettuce3.uasset" 105
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/lettuce4.uasset" 106
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/LettuceSeedIcon.uasset" 107
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/CarrotSeed.uasset" 108
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Seed.uasset" 109
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Seed.uasset" 110
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/wheat1.uasset" 111
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/wheat2.uasset" 112
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/wheat3.uasset" 113
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/wheat4.uasset" 114
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/WheatSeedIcon.uasset" 115
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/WheatSeed.uasset" 116
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_WheatSeed.uasset" 117
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyCubicalRanchGameInstance.uasset" 118
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/SelectedToolBarMaterial.uasset" 119
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/ToolBarMaterial.uasset" 120
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/WBP_Achievement.uasset" 121
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/Calendar.uasset" 122
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/Clock.uasset" 123
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/PiggyBank.uasset" 124
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/WBP_Clock.uasset" 125
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/Fonts/Qahiri-Regular.uasset" 126
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/Fonts/Qahiri-Regular_Font.uasset" 127
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/WBP_ToolBarItem.uasset" 128
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/WBP_ToolBar.uasset" 129
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/Energy.uasset" 130
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/WBP_HUD.uasset" 131
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_ListedAchievement.uasset" 132
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_Achievements.uasset" 133
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_InventoryItem.uasset" 134
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/Achievement.uasset" 135
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_Inventory.uasset" 136
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/palettemat.uasset" 137
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/FemaleCharacter_PhysicsAsset.uasset" 138
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/FemaleCharacter.uasset" 139
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_CubicalRanchCharacter.uasset" 140
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/HeartParticle.uasset" 141
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/M_Heart.uasset" 142
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/HeartParticleSystem.uasset" 143
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Feed.uasset" 144
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BP_BaseAnimal.uasset" 145
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BaseAnimal.uasset" 146
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BaseAnimal.uasset" 147
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/House/BP_HouseFurniture.uasset" 148
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/bed.uasset" 149
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/House/BP_Bed.uasset" 150
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_Bed.uasset" 151
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_ShopItem.uasset" 152
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_Shop.uasset" 153
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/computer.uasset" 154
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/House/BP_Computer.uasset" 155
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_Computer.uasset" 156
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/door.uasset" 157
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Door.uasset" 158
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/House/BP_Door.uasset" 159
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_Door.uasset" 160
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/BP_SaveableObjectManager.uasset" 161
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Terrain.uasset" 162
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MC.uasset" 163
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/NewMap.uasset" 164
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/World_BuiltData.uasset" 165
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/NewMap_BuiltData.uasset" 166
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Wool1.uasset" 167
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette6.uasset" 168
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Wool.uasset" 169
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Wool.uasset" 170
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/Sheep_PhysicsAsset.uasset" 171
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/Sheep_Skeleton.uasset" 172
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/Sheep.uasset" 173
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Shear.uasset" 174
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BP_Sheep.uasset" 175
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/Sheep.uasset" 176
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Sheep.uasset" 177
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Soil.uasset" 178
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Tool.uasset" 179
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/AchievementSystem/BP_AchievementComponent.uasset" 180
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BP_AnimalSpawner.uasset" 181
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Egg1.uasset" 182
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette4.uasset" 183
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Egg.uasset" 184
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Egg.uasset" 185
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/StaticEgg.uasset" 186
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BP_EggActor.uasset" 187
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/chicken_PhysicsAsset.uasset" 188
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/chicken_Skeleton.uasset" 189
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/chicken.uasset" 190
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BP_Chicken.uasset" 191
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/Chicken.uasset" 192
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Milk1.uasset" 193
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette5.uasset" 194
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/Milk.uasset" 195
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Milk.uasset" 196
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/cow_PhysicsAsset.uasset" 197
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/cow_Skeleton.uasset" 198
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/cow_Skeleton.uasset" 199
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/cow.uasset" 200
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/Milking.uasset" 201
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/BP_Cow.uasset" 202
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animals/Cow.uasset" 203
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animations/FAnimBlueprint.uasset" 204
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Animations/FBlendSpace1D.uasset" 205
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Grass.uasset" 206
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Block.uasset" 207
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Soil.uasset" 208
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Soil2.uasset" 209
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Soil_C.uasset" 210
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/Blocks/Water.uasset" 211
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/ClockWidgetBlueprint.uasset" 212
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/HUDWidgetBlueprint.uasset" 213
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/HUD/ToolBarWidgetBlueprint.uasset" 214
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_Carrot.uasset" 215
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/WBP_Inventory.uasset" 216
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/WBP_InventoryItem.uasset" 217
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/Fonts/Chango-Regular.uasset" 218
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/Fonts/Chango-Regular_Font.uasset" 219
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_InGameMenu.uasset" 220
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/WBP_MainMenu.uasset" 221
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/chicken.uasset" 222
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/chicken_PhysicsAsset.uasset" 223
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/chicken_Skeleton.uasset" 224
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/cow_0.uasset" 225
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/cow.uasset" 226
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/cow_PhysicsAsset.uasset" 227
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/dirt_0.uasset" 228
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/FemaleCharacter.uasset" 229
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/FemaleCharacter_Anim.uasset" 230
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/FemaleCharacter_Anim.uasset" 231
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/FemaleCharacter_PhysicsAsset.uasset" 232
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/FemaleCharacter_Skeleton.uasset" 233
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/FemaleIdle.uasset" 234
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/FemaleWalking.uasset" 235
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset" 236
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.uasset" 237
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/M_Cursor_Decal.uasset" 238
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sheep.uasset" 239
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sheep_PhysicsAsset.uasset" 240
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sheep_Skeleton.uasset" 241
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/Egg1.uasset" 242
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Animals/palette.uasset" 243
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/palette.uasset" 244
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/soil1.uasset" 245
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/Bartending.uasset" 246
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/Blocking.uasset" 247
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Character/Death_From_Back_Headshot.uasset" 248
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/carrot5.uasset" 249
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/carrot6.uasset" 250
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/CarrotTexture1.uasset" 251
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/CarrotTexture2.uasset" 252
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/CarrotTexture3.uasset" 253
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/lettuce5.uasset" 254
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/LettuceTexture1.uasset" 255
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/LettuceTexture2.uasset" 256
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/LettuceTexture3.uasset" 257
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/palette.uasset" 258
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/palette2.uasset" 259
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/palette3.uasset" 260
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/palette4.uasset" 261
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/palette5.uasset" 262
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/wheat5.uasset" 263
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/wheat6.uasset" 264
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/WheatTexture.uasset" 265
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/WheatTexture2.uasset" 266
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/CarrotSeed.uasset" 267
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/Empty.uasset" 268
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/LettuceSeed.uasset" 269
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/Glow.uasset" 270
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/Glow_Inst.uasset" 271
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/Heart.uasset" 272
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Water_N.uasset" 273
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/Water.uasset" 274
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/door_Skeleton.uasset" 275
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/palette.uasset" 276
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/HouseInterior1.uasset" 277
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/moon.uasset" 278
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/moon1.uasset" 279
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Bucket.uasset" 280
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Carrot.uasset" 281
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Carrot1.uasset" 282
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/CarrotSeed.uasset" 283
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Hoe.uasset" 284
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Lettuce.uasset" 285
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Lettuce1.uasset" 286
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/LettuceSeed.uasset" 287
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/LettuceSeed.uasset" 288
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/LettuceSeed1.uasset" 289
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/LettuceSeed1.uasset" 290
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/palette.uasset" 291
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/palette.uasset" 292
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/palette1.uasset" 293
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/palette2.uasset" 294
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/palette3.uasset" 295
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Shovel.uasset" 296
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/WateringCan.uasset" 297
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Wheat.uasset" 298
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/Wheat1.uasset" 299
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/WheatSeed.uasset" 300
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Items/WheatSeed1.uasset" 301
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/WheatSeed1.uasset" 302
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Tools/WheatSeed_Skeleton.uasset" 303
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Basic_Wall.uasset" 304
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Pillar_50x500.uasset" 305
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_400x300.uasset" 306
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_400x400.uasset" 307
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_500x500.uasset" 308
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 309
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 310
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Collapse01.uasset" 311
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Collapse02.uasset" 312
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Explosion01.uasset" 313
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Explosion02.uasset" 314
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Fire01.uasset" 315
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Fire_Sparks01.uasset" 316
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Light01.uasset" 317
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Light01_Cue.uasset" 318
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Light02.uasset" 319
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Light02_Cue.uasset" 320
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Smoke01.uasset" 321
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Starter_Birds01.uasset" 322
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Starter_Music01.uasset" 323
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Starter_Wind05.uasset" 324
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Starter_Wind06.uasset" 325
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Steam01.uasset" 326
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Explosion_Cue.uasset" 327
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Burst_M.uasset" 328
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_Burst.uasset" 329
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 330
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 331
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 332
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 333
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 334
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 335
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 336
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 337
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/P_Explosion.uasset" 338
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 339
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 340
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 341
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Bush_D.uasset" 342
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Bush_N.uasset" 343
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Bush.uasset" 344
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Bush.uasset" 345
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Chair_M.uasset" 346
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Chair_N.uasset" 347
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Chair.uasset" 348
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Couch.uasset" 349
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Glass.uasset" 350
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Door_M.uasset" 351
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Door_N.uasset" 352
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Door.uasset" 353
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Door.uasset" 354
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 355
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 356
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 357
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 358
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 359
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 360
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_RockMesh_M.uasset" 361
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_RockMesh_N.uasset" 362
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Rock.uasset" 363
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Rock.uasset" 364
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Shelf_M.uasset" 365
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Shelf_N.uasset" 366
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Shelf.uasset" 367
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Shelf.uasset" 368
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Basic_Floor.uasset" 369
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Stairs.uasset" 370
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Cone.uasset" 371
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 372
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 373
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Pipe.uasset" 374
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 375
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 376
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Plane.uasset" 377
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Torus.uasset" 378
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Trim.uasset" 379
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 380
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 381
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 382
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Tube.uasset" 383
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 384
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 385
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 386
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 387
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 388
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 389
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 390
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 391
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 392
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 393
+"../../../Engine/Content/BasicShapes/Cone.uasset" 394
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 395
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 396
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 397
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 398
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 399
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 400
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 401
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 402
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 403
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 404
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 405
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 406
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 407
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 408
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 409
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 410
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 411
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 412
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 413
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 414
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 415
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 416
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 417
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 418
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 419
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 420
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 421
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 422
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 423
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 424
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 425
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 426
+"../../../Engine/Content/EditorResources/S_Note.uasset" 427
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 428
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 429
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 430
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 431
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 432
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 433
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 434
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 435
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 436
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 437
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 438
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 439
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 440
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 441
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 442
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 443
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 444
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 445
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 446
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 447
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 448
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 449
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 450
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 451
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 452
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 453
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 454
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 455
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 456
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 457
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 458
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 459
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 460
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 461
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 462
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 463
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 464
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 465
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 466
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 467
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 468
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 469
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 470
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 471
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 472
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 473
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 474
+"../../../Engine/Content/EngineMaterials/DefaultVirtualTextureMaterial.uasset" 475
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 476
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 477
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 478
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 479
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 480
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 481
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 482
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 483
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 484
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 485
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 486
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 487
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 488
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 489
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 490
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 491
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 492
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 493
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 494
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 495
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 496
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 497
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 498
+"../../../Engine/Content/EngineResources/Black.uasset" 499
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 500
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 501
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 502
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 503
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 504
+"../../../Engine/Content/EngineSounds/Master.uasset" 505
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 506
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 507
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 508
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 509
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 510
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 511
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 512
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 513
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 514
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 515
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 516
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 517
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 518
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 519
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 520
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 521
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 522
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 523
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 524
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 525
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 526
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 527
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 528
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 529
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 530
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 531
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 532
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 533
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 534
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 535
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 536
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 537
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 538
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 539
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 540
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 541
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 542
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 543
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 544
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 545
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 546
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 547
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 548
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 549
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 550
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 551
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 552
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 553
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 554
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 555
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 556
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 557
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 558
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 559
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 560
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 561
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 562
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 563
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 564
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 565
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 566
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/carrot1.uasset" 567
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/carrot2.uasset" 568
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/carrot3.uasset" 569
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Crops/carrot4.uasset" 570
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_CarrotSeed.uasset" 571
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/FemaleCharacter.uasset" 572
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_AnimalItem.uasset" 573
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_ChickenPurchase.uasset" 574
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/CowIcon.uasset" 575
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_CowPurchase.uasset" 576
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_LettuceSeed.uasset" 577
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Icons/SheepIcon.uasset" 578
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/InventorySystem/BP_SheepPurchase.uasset" 579
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Lamp_M.uasset" 580
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Lamp_N.uasset" 581
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Lamp.uasset" 582
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 583
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 584
+"../../../Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset" 585
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/GrayMaterial.uasset" 586
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset" 587
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Materials/M_Highlighted.uasset" 588
+"../../../Engine/Content/BasicShapes/Cube.uasset" 589
+"../../../Engine/Content/BasicShapes/Plane.uasset" 590
+"../../../Engine/Content/MapTemplates/Sky/Desert_Outer_HDR.uasset" 591
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/blocks/ForestGrass.uasset" 592
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/HouseExterior.uasset" 593
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/HouseInterior2.uasset" 594
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/Tree1.uasset" 595
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/Tree2.uasset" 596
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/Tree3.uasset" 597
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Objects/Tree4.uasset" 598
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MyAssets/Sounds/17_Idealism_-_Golden_24_Bit_MASTER.uasset" 599
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/World.umap" 600
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/MenuSystem/MainMenu.umap" 601
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 602
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 603
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 604
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 605
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 606
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 607
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 608
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 609
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 610
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 611
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 612
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 613
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 614
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_AssetPlatform.uasset" 615
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 616
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 617
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 618
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 619
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 620
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 621
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 622
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 623
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Maps/Advanced_Lighting.umap" 624
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 625
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_MacroVariation.uasset" 626
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 627
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 628
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 629
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 630
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 631
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Copper.uasset" 632
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Statue_M.uasset" 633
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Statue_N.uasset" 634
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 635
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Floor_400x400.uasset" 636
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 637
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Chair.uasset" 638
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Statue.uasset" 639
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Statue.uasset" 640
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_TableRound_M.uasset" 641
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_TableRound_N.uasset" 642
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_TableRound.uasset" 643
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_TableRound.uasset" 644
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Maps/Minimal_Default.umap" 645
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Fire01_Cue.uasset" 646
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 647
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 648
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 649
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 650
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 651
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/P_Fire.uasset" 652
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 653
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Smoke01_Cue.uasset" 654
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/P_Smoke.uasset" 655
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 656
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 657
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Spark_Core.uasset" 658
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_Spark.uasset" 659
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/P_Sparks.uasset" 660
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 661
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Steam01_Cue.uasset" 662
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/P_Steam_Lit.uasset" 663
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 664
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 665
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 666
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 667
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 668
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 669
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 670
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 671
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 672
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 673
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 674
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 675
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 676
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 677
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 678
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 679
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 680
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 681
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 682
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 683
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 684
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 685
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 686
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 687
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 688
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 689
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 690
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 691
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 692
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 693
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 694
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 695
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 696
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 697
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 698
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Gradinet_01.uasset" 699
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 700
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 701
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 702
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 703
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 704
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 705
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 706
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 707
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 708
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 709
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 710
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 711
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 712
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 713
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 714
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 715
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 716
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 717
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 718
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 719
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 720
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 721
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Ground_Grass.uasset" 722
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 723
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 724
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 725
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 726
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 727
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Ground_Moss.uasset" 728
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 729
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 730
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Gold.uasset" 731
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 732
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Rust.uasset" 733
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 734
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 735
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Metal_Steel.uasset" 736
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 737
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 738
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 739
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 740
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 741
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 742
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 743
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 744
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Rock_Slate.uasset" 745
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 746
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 747
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 748
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 749
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 750
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 751
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 752
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 753
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 754
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 755
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 756
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Tech_Panel.uasset" 757
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Water_Lake.uasset" 758
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Water_M.uasset" 759
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Water_Ocean.uasset" 760
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 761
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 762
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 763
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 764
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 765
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 766
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 767
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 768
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Wood_Oak.uasset" 769
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 770
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 771
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Wood_Pine.uasset" 772
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 773
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 774
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 775
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_400x200.uasset" 776
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 777
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 778
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Collapse_Cue.uasset" 779
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 780
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 781
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 782
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 783
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/MaterialSphere.uasset" 784
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Frame_M.uasset" 785
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Textures/T_Frame_N.uasset" 786
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/Materials/M_Frame.uasset" 787
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_CornerFrame.uasset" 788
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_DoorFrame.uasset" 789
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_GlassWindow.uasset" 790
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_PillarFrame.uasset" 791
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_PillarFrame300.uasset" 792
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Props/SM_WindowFrame.uasset" 793
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Cube.uasset" 794
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 795
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Shapes/Shape_Sphere.uasset" 796
+"C:/Users/Usuario/Documents/Unreal Projects/CubicalRanch/Content/StarterContent/Maps/StarterMap.umap" 797
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 798
+"../../../Engine/Content/Maps/Entry.umap" 799

@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Achievement.h"
 #include "AchievementComponent.h"
+#include "Achievement.h"
 #include "../CubicalRanchCharacter.h"
 
 // Sets default values for this component's properties
