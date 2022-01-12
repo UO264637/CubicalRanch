@@ -125,14 +125,18 @@ void ACubicalRanchCharacter::UseItem(UItem* Item, bool leftclick, FTransform loc
 
 void ACubicalRanchCharacter::AddItemToToolBar(UItem* Item)
 {
-	Inventory->RemoveItem(Item);
-	ToolBar->AddItem(Item);
+	if (ToolBar->AddItem(Item)) {
+		Inventory->RemoveItem(Item);
+	}
 }
 
 void ACubicalRanchCharacter::AddItemToInventory(UItem* Item)
 {
-	ToolBar->RemoveItem(Item);
-	Inventory->AddItem(Item);
+	if (!Item->ItemDisplayName.EqualTo(FText::FromString("Empty")))
+	{
+		ToolBar->RemoveItem(Item);
+		Inventory->AddItem(Item);
+	}
 }
 
 void ACubicalRanchCharacter::GiveItem(UItem* Item, int32 amount)

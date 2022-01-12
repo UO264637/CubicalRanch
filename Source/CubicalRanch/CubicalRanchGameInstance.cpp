@@ -28,7 +28,7 @@ UCubicalRanchGameInstance::UCubicalRanchGameInstance(const FObjectInitializer& O
 
 void UCubicalRanchGameInstance::Init()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Found class %s"), *MenuClass->GetName());
+	//UE_LOG(LogTemp, Warning, TEXT("Found class %s"), *MenuClass->GetName());
 }
 
 void UCubicalRanchGameInstance::LoadMenu()
