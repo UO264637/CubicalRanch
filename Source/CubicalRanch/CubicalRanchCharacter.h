@@ -69,6 +69,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Property)
 	int32 Money;
 
+	UPROPERTY(BlueprintReadOnly, Category = Constant)
+	int32 MAX_ENERGY;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Property)
 	int32 Energy;
 };

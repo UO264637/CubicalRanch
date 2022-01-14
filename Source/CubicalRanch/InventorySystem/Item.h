@@ -17,7 +17,7 @@ class CUBICALRANCH_API UItem : public UObject
 public:
 	UItem();
 
-	virtual class UWorld* GetWorld() const { return World; }
+	virtual class UWorld* GetWorld() const override { return World; }
 
 	UPROPERTY(Transient)
 	class UWorld* World;

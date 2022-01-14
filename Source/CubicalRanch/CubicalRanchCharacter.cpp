@@ -74,7 +74,9 @@ ACubicalRanchCharacter::ACubicalRanchCharacter()
 	Achievements = CreateDefaultSubobject<UAchievementComponent>("Achievements");
 
 	// Energy
-	Energy = 200;
+	MAX_ENERGY = 200;
+	Energy = MAX_ENERGY;
+	
 }
 
 void ACubicalRanchCharacter::Tick(float DeltaSeconds)
