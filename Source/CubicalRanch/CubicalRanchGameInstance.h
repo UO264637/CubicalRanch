@@ -18,7 +18,7 @@ class CUBICALRANCH_API UCubicalRanchGameInstance : public UGameInstance, public 
 public:
 	UCubicalRanchGameInstance(const FObjectInitializer& ObjectInitializer);
 
-	virtual void Init();
+	//virtual void Init();
 
 	UFUNCTION(BlueprintCallable)
 	void LoadMenu();
