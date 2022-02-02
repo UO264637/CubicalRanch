@@ -66,7 +66,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Items")
 	TArray<class UItem*> GetAllItems();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Property)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite,  Category = Property)
 	int32 Money;
 
 	UPROPERTY(BlueprintReadOnly, Category = Constant)
