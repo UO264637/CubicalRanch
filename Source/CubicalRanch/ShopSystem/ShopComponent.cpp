@@ -9,7 +9,8 @@ UShopComponent::UShopComponent()
 	
 }
 
-TArray<class UItem*> UShopComponent::GetItems()
+// Called when the game starts
+void UShopComponent::BeginPlay()
 {
-	return ShopItems;
+	Super::BeginPlay();
 }
