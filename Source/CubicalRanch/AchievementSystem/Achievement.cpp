@@ -16,8 +16,11 @@ void UAchievement::Progress(ACubicalRanchCharacter* Character, int32 Points)
 		}
 		if (Advancement >= Goal)
 		{
-			IsAchieved = true;
-			Show(Character);
+			if (!IsAchieved)
+			{
+				IsAchieved = true;
+				Show(Character);
+			}
 		}
 	}
 	else {

@@ -21,3 +21,4 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Instanced)
 	TArray<class UItem*> ShopItems;
 };
+			
